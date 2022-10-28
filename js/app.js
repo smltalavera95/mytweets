@@ -1,10 +1,15 @@
+// Variables
+const form = document.querySelector('#form')
+const listTweets = document.querySelector('#list-tweets')
+let tweets = []
 
-const products = {
-    name : 'Avocado',
-    qty  : 3,
-    price: 500
+//Events Listeners
+eventListeners()
+function eventListeners(){
+    form.addEventListener('submit', addTweet)
 }
 
-const productsString = JSON.stringify(products)
-
-localStorage.setItem('products', productsString)
+//Functions
+function addTweet(e){
+    e.preventDefault()
+}
