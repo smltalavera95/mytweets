@@ -16,7 +16,7 @@ Welcome to Personal Tweets with Local Storage! This repository provides a simple
 
 ## Preview
 
-[![Demo](https://smltalavera95.github.io/mytweets/)
+<a href="https://smltalavera95.github.io/mytweets/" target="_blank">View Demo</a>
 
 
 ## Technologies Used
